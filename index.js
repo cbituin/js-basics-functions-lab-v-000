@@ -4,7 +4,7 @@ function distanceFromHqInBlocks(currentBlock) {
   return distance
 }
 
-function distanceTravelledInFeet(currentBlock) {
+function distanceFromHqInFeet(currentBlock) {
  let distance = distanceFromHqInBlocks(currentBlock) * 264
  return distance
 }
