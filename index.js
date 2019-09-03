@@ -28,6 +28,6 @@ function calculatesFarePrice(start, current) {
     return totalCost
   }
   else if (chargableDist > 2000){
-    return 
+    return
   }
 }
