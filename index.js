@@ -15,6 +15,6 @@ function distanceTravelledInFeet(start, current) {
   return distance
 }
 
-function calculatesFarePrice(start, destination) {
-
+function calculatesFarePrice(start, current) {
+  let chargableDist = distanceTravelledInFeet(stat, current) - 400
 }
