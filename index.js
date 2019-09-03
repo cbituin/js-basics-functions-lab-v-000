@@ -16,5 +16,15 @@ function distanceTravelledInFeet(start, current) {
 }
 
 function calculatesFarePrice(start, current) {
-  let chargableDist = distanceTravelledInFeet(stat, current) - 400
+  let chargableDist = distanceTravelledInFeet(stat, current)
+  if (chargableDist <= 400) {
+    return 0;
+  }
+  else if (chargableDist > 400 && chargableDist <= 2000){
+    let totalCost = (chargableDist - 400) * .02
+    return totalCost
+  }
+  else if (chargableDist > 2500){
+    return
+  }
 }
